@@ -48,7 +48,7 @@ First generate the data in R:
 
 ```{r generate}
 set.seed(42)
-n <- 50 # sample size
+n <- 70 # sample size
 x <- 1:n
 y <- 10 * x + rnorm(n, 0, 10)
 # y = 10*x^1.5 + rnorm(n, 0, 10)
